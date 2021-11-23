@@ -1,0 +1,198 @@
+<<<<<<< HEAD
+body {
+  margin: 0px;
+  max-width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.startscreen {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1.4em;
+  background-color: black;
+  height: 100%;
+  width: 500px;
+  position: absolute;
+  display: block;
+  z-index: 500;
+  color: whitesmoke;
+  padding: 5%;
+  line-height: 2em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.spacebar {
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.parentdiv {
+  position: relative;
+  height: 75px;
+  margin-right: auto;
+  width: 100%;
+  z-index: 200;
+  background-color: rgb(240, 240, 240);
+}
+
+.scorecount {
+  position: relative;
+  margin-top: 3vh;
+  padding-right: 3%;
+  top: 0px;
+  right: 0px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 2em;
+  color: black;
+  position: absolute;
+  z-index: 100;
+}
+
+.score_live_wrap {
+  padding: 3%;
+  box-sizing: border-box;
+  width: 100%;
+  height: 75px;
+  top: 0px;
+  position: absolute;
+  padding-top: 2%;
+}
+
+.playerlives {
+  margin-top: 3vh;
+  position: absolute;
+}
+
+.wrapper {
+  height: 700px;
+  width: 500px;
+  z-index: 100;
+}
+.container {
+  width: auto;
+  display: block;
+  max-width: 500px;
+  height: 100%;
+  position: fixed;
+  background-image: url("images/space.gif");
+  background-repeat: repeat-y;
+  background-repeat: repeat-x;
+
+  animation: moveBG 6s linear;
+}
+
+@keyframes moveBG {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+=======
+body {
+  margin: 0px;
+  max-width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .startscreen {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1.4em;
+  background-color: black;
+  height: 700px;
+  width: 500px;
+  position: absolute;
+  display: block;
+  z-index: 500;
+  color: whitesmoke;
+  margin-top: 3vh;
+  padding: 5%;
+  line-height: 2em;
+  margin-right: auto;
+  margin-left: auto;
+} */
+
+.bottombox {
+  width: 500px;
+  position: absolute;
+  bottom: 0;
+  max-height: 175x;
+  margin-bottom: vh;
+  background-color: black;
+  z-index: 100;
+  font-family: "Press Start 2P", cursive;
+  padding: 2%;
+  box-sizing: border-box;
+  color: whitesmoke;
+  line-height: 2em;
+}
+.spacebar {
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.parentdiv {
+  position: relative;
+  height: 75px;
+  margin-right: auto;
+  width: 100%;
+  z-index: 200;
+  background-color: black;
+}
+
+.scorecount {
+  position: relative;
+  margin-top: 3vh;
+  padding-right: 3%;
+  top: 0px;
+  right: 0px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 2em;
+  color: white;
+  position: absolute;
+  z-index: 100;
+}
+
+.score_live_wrap {
+  padding: 3%;
+  box-sizing: border-box;
+  width: 100%;
+  height: 75px;
+  top: 0px;
+  position: absolute;
+  padding-top: 2%;
+}
+
+.playerlives {
+  margin-top: 3vh;
+  position: absolute;
+}
+
+.wrapper {
+  height: 700px;
+  width: 500px;
+  z-index: 100;
+}
+.container {
+  width: auto;
+  display: block;
+  max-width: 500px;
+  height: 100%;
+  position: fixed;
+  background-image: url("images/space.gif");
+  background-repeat: repeat-y;
+  background-repeat: repeat-x;
+
+  animation: moveBG 6s linear;
+}
+>>>>>>> e01101aaac4567c14497d1c3a84df167bd5b0cf2
